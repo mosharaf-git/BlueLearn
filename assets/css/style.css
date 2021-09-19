@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.header .navbar {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    width: 128px;
+    height: auto;
+}
+
+.navbar ul{
+    display: inline-block;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 10px 0;
+}
+
+.navbar ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.menu-btn .login,
+.register{
+    color: #3D5AFF;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.menu-btn .register{
+    border: 1px solid #3D5AFF;
+    border-radius: 3px;
+    padding: 10px 30px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    margin-bottom: 100px;
+}
+
+.hero .text-section{
+    max-width: 490px;
+}
+
+.hero .text-section h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero .text-section .color{
+    color: #FE6C3E;
+}
+
+.hero .text-section p{
+    color: #51343C;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.hero .btn{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    background-color:#3D5AFF;
+    border-radius: 5px;
+    padding: 10px 70px;
+}
+
+.hero img {
+    width: 590px;
+    position: relative;
+    bottom: -40px;
+}
+
+.community{
+    margin-bottom: 40px;
+}
+
+.community p{
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.community-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
