@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
+img{
+    max-width: 100%;
+}
 
 body{
     background-color: #FAFAFA;
@@ -91,16 +94,18 @@ body{
     color: #51343C;
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 40px;
+    
 }
 
-.hero .btn{
+.btn{
+    display: inline-block;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     background-color:#3D5AFF;
     border-radius: 5px;
     padding: 10px 70px;
+    margin-top: 40px;
 }
 
 .hero img {
@@ -125,6 +130,50 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
+/* Club Section Starts */
+.club-section{
+    background-color: #F2F3F6;
+    padding: 0 100px;
+}
+
+.club-section .header{
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.club-section .header h1{
+    font-size: 36px;
+}
+
+.card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    bottom: -25px;
+    flex-shrink: 0;
+}
+
+.card-grid .card{
+    
+    background-color: #fff;
+    max-width: 330px;
+    min-height: 360px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Club Section End */
+
 
 
 
